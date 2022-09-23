@@ -37,7 +37,7 @@ class Mueble{
   let tresM = new Mueble('Tres','img/empotrado.jpeg','Armario empotrado')
   let cuatroM = new Mueble('cuatro','img/exhibidor.jpeg','mueble para exhibir')
   let cincoM = new Mueble('cinco','img/flotante.jpeg','estante flotante')
-  let seisM = new Mueble('seis','img/3.png','tercero')
+ /**  let seisM = new Mueble('seis','img/3.png','tercero')
   let sieteM = new Mueble('siete','img/3.png','tercero')
   let ochoM = new Mueble('ocho','img/3.png','tercero')
   let nueveM = new Mueble('nueve','img/3.png','tercero')
@@ -53,10 +53,10 @@ class Mueble{
   let diecinueveM = new Mueble('diecinueve','img/3.png','tercero')
   let vienteM = new Mueble('veinte','img/3.png','tercero')
   let vientiunoM = new Mueble('veintiuno','img/3.png','tercero')
-  let vientidosM = new Mueble('veinte','img/3.png','tercero')
+  let vientidosM = new Mueble('veinte','img/3.png','tercero')*/
 
 
-  muebles.push(unoM,dosM,tresM,cuatroM,cincoM,seisM,sieteM,ochoM,nueveM,diezM,onceM,treceM,catorceM,quinceM,dieciseisM,diecisieteM,dieciochoM,diecinueveM,vienteM,vientiunoM,vientidosM)
+  muebles.push(unoM,dosM,tresM,cuatroM,cincoM)/** ,seisM,sieteM,ochoM,nueveM,diezM,onceM,treceM,catorceM,quinceM,dieciseisM,diecisieteM,dieciochoM,diecinueveM,vienteM,vientiunoM,vientidosM)*/
 
 
 insertarHtml()
@@ -74,8 +74,7 @@ insertarHtml()
      `
      contenedorMuebles.innerHTML+=opcionMuebles
      })
-      /** <h2 class="sutitulo">${mueble.nombre}</h2>
-             <div class="linea-division"> </div>*/
+      
   }
 
  
