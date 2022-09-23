@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2? family= Monsieur+La+Doulaise & display=swap');
+
+/*https://materializecss.com/*/
+/*https://www.youtube.com/watch?v=4FWyJCEQBrs*/
+/* detalles de la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(-45deg, #e3ddd9 38%, #36221c 63%);
+    font-family:'Raleway', sans-serif;
+}
+
+
+.titulo{
+    font-size: 40px;
+    font-family:'Monsieur La Doulaise', cursiva;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.titulo:hover{
+    font-size: 65px;
+    color:#e3ddd9;
+}
+
+.subtitulo{
+    margin: 0;
+    color:#000;
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content:center;
+}
+
+.sabor{
+    color:#fff;
+    margin: 7px 0;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script',cursive;
+    margin-top: 0;
+    justify-content:center;
+}
+.linea-division{
+    width: 50%;
+    height: 2px;
+    background-color: #36221c;
+    justify-content:center;
+    
+}
+
+
+/*estios materialize*/
+.carousel{
+    min-height: 500px;
+}
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  
+    width: 500px;
+    height: 500px;
+}
+
+.carousel .carousel-item img{
+    width: 80%;
+    height: 60%;
+    object-fit: cover;
+    /*position: absolute;*/
+    top:0;
+    left: 0;
+    z-index: -1;
+    border-radius:20px;
+}
+
+.carousel .indicators .indicator-item{
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 10px;
+    background: #36221c;
+}
+
+@media (max-width:360px){
+    html{
+        font-size: 9px;
+    }
+     .tarjetas{
+         flex-direction: column;
+    
+        
+    }
+     .titulo{
+        font-size: 40px;
+        font-family: 'Dancing script', cursive;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .titulo:hover{
+         font-size: 35px;
+     }
+     .sabor{
+        font-size: 30px;
+     }
+     .carousel .carousel-item img{
+        width: 200px;
+        height: 200px;
+        align-items: center;
+        justify-content: center;
+      }
+      .carousel-item{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+ 
