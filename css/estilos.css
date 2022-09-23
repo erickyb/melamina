@@ -24,6 +24,7 @@ body{
 }
 .titulo:hover{
     font-size: 65px;
+    font-family:'Monsieur La Doulaise', cursiva;
     color:#e3ddd9;
 }
 
