@@ -1,7 +1,8 @@
 
 const contenedorMuebles=document.getElementById('contenedor-muebles')
 
-let muebles = []
+let ziby =[]
+//let muebles = []
 let opcionMuebles
 
 
@@ -25,18 +26,19 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 
 class Mueble{
-    constructor(nombre,foto,descripcion){
-        this.nombre=nombre
-        this.foto=foto
-        this.descripcion=descripcion
+    constructor(nombreZiby,fotoZiby,descripcionZiby){
+        this.nombreZiby=nombreZiby
+        this.fotoZiby=fotoZiby
+        this.descripcionZiby=descripcionZiby
+       
     }
   }
 
-  let unoM = new Mueble('Juguete','img/carro_para_niño.jpeg','Coche de niño ')
-  let dosM = new Mueble('Juguete','img/cuna_para_niña.jpeg','cuna para niña')
-  let tresM = new Mueble('Tres','img/empotrado.jpeg','Armario empotrado')
-  let cuatroM = new Mueble('cuatro','img/exhibidor.jpeg','mueble para exhibir')
-  let cincoM = new Mueble('cinco','img/flotante.jpeg','estante flotante')
+  let unoM = new Mueble('Juguete','img/carro_para_niño.jpeg','Coche de Niño ')
+  let dosM = new Mueble('Juguete','img/cuna_para_niña.jpeg','Cuna para Niña')
+  let tresM = new Mueble('Tres','img/empotrado.jpeg','Armario Empotrado')
+  let cuatroM = new Mueble('cuatro','img/exhibidor.jpeg','Mueble para Exhibir')
+  let cincoM = new Mueble('cinco','img/flotante.jpeg','Estante Flotante')
  /**  let seisM = new Mueble('seis','img/3.png','tercero')
   let sieteM = new Mueble('siete','img/3.png','tercero')
   let ochoM = new Mueble('ocho','img/3.png','tercero')
@@ -56,20 +58,22 @@ class Mueble{
   let vientidosM = new Mueble('veinte','img/3.png','tercero')*/
 
 
-  muebles.push(unoM,dosM,tresM,cuatroM,cincoM)/** ,seisM,sieteM,ochoM,nueveM,diezM,onceM,treceM,catorceM,quinceM,dieciseisM,diecisieteM,dieciochoM,diecinueveM,vienteM,vientiunoM,vientidosM)*/
+  ziby.push(unoM,dosM,tresM,cuatroM,cincoM)/** ,seisM,sieteM,ochoM,nueveM,diezM,onceM,treceM,catorceM,quinceM,dieciseisM,diecisieteM,dieciochoM,diecinueveM,vienteM,vientiunoM,vientidosM)*/
 
 
 insertarHtml()
 
-  function insertarHtml (){
+  function insertarHtml(){
 
-    muebles.forEach((mueble) =>{
+    ziby.forEach((mueble) =>{
         //console.log(mueble.foto)
          opcionMuebles=`
      
-         <div id="${mueble.nombre}" class="carousel-item">
-             <p class="sabor"> ${mueble.descripcion}</p>
-             <img src="${mueble.foto}" alt=${mueble.nombre}>
+         <div id="${mueble.nombreZiby}" class="carousel-item">
+             <p class="sabor"> ${mueble.descripcionZiby}</p>
+             <img src="${mueble.fotoZiby}" alt=${mueble.nombreZiby}>
+             <span id="contactos-Ziby">Contactos:992269538/943155403-Ziby</span> 
+             <span id="Email-Ziby">Email:ziby.eclipce@gmail.com-Ziby</span>
          </div>
      `
      contenedorMuebles.innerHTML+=opcionMuebles
