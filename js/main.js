@@ -34,31 +34,39 @@ class Mueble{
     }
   }
 
-  let unoM = new Mueble('Juguete','img/carro_para_niño.jpeg','Coche de Niño ')
-  let dosM = new Mueble('Juguete','img/cuna_para_niña.jpeg','Cuna para Niña')
-  let tresM = new Mueble('Tres','img/empotrado.jpeg','Armario Empotrado')
-  let cuatroM = new Mueble('cuatro','img/exhibidor.jpeg','Mueble para Exhibir')
-  let cincoM = new Mueble('cinco','img/flotante.jpeg','Estante Flotante')
- /**  let seisM = new Mueble('seis','img/3.png','tercero')
-  let sieteM = new Mueble('siete','img/3.png','tercero')
-  let ochoM = new Mueble('ocho','img/3.png','tercero')
-  let nueveM = new Mueble('nueve','img/3.png','tercero')
-  let diezM = new Mueble('diez','img/3.png','tercero')
-  let onceM = new Mueble('once','img/3.png','tercero')
-  let doceM = new Mueble('doce','img/3.png','tercero')
-  let treceM = new Mueble('trece','img/3.png','tercero')
-  let catorceM = new Mueble('catorce','img/3.png','tercero')
-  let quinceM = new Mueble('quince','img/3.png','tercero')
-  let dieciseisM = new Mueble('dieciseis','img/3.png','tercero')
-  let diecisieteM = new Mueble('diecisiete','img/3.png','tercero')
-  let dieciochoM = new Mueble('dieciocho','img/3.png','tercero')
-  let diecinueveM = new Mueble('diecinueve','img/3.png','tercero')
-  let vienteM = new Mueble('veinte','img/3.png','tercero')
-  let vientiunoM = new Mueble('veintiuno','img/3.png','tercero')
-  let vientidosM = new Mueble('veinte','img/3.png','tercero')*/
+  let melami1 = new Mueble('Jugue1','img/IMG_JUGUETES/zibyCajaJuguetes.jpeg','')
+  let melami2 = new Mueble('Jugue2','img/IMG_JUGUETES/zibyCamaMuñecaJ.jpeg','Cuna para Niña')
+  let melami3 = new Mueble('Jugue3','img/IMG_JUGUETES/zibyCarritoNiña1J.jpeg','Armario Empotrado')
+  let melami4 = new Mueble('Jugue4','img/IMG_JUGUETES/zibyCarritoNiña2J.jpeg','Mueble para Exhibir')
+  let melami5 = new Mueble('Jugue5','img/IMG_JUGUETES/zibyCarritoNiño1J.jpg','Estante Flotante')
+  let melami6 = new Mueble('Jugue6','img/IMG_JUGUETES/zibyCarritoNiño2J.png','tercero')
+  let melami7 = new Mueble('Jugue7','img/IMG_JUGUETES/zibyCarritoNiño3J.jpeg','tercero')
+  let melami8 = new Mueble('Jugue8','img/IMG_JUGUETES/zibyCarritoNiño4J.jpeg','tercero')
+  let melami9 = new Mueble('Jugue9','img/IMG_JUGUETES/zibyCocina1J.jpeg','tercero')
+  let melam10 = new Mueble('Jugu10','img/IMG_JUGUETES/zibyCocina2J.jpeg','tercero')
+  let melam11 = new Mueble('Jugu11','img/IMG_JUGUETES/zibyCocodriloJ.jpeg','tercero')
+  let melam12 = new Mueble('Jugu12','img/IMG_JUGUETES/zibyCunaMuñeca1J.jpeg','tercero')
+  let melam13 = new Mueble('Jugu13','img/IMG_JUGUETES/zibyCunaMuñeca2J.jpeg','tercero')
+  let melam14 = new Mueble('Jugu14','img/IMG_JUGUETES/zibyMicroondasJ.jpeg','tercero')
+  let melam15 = new Mueble('Jugu15','img/IMG_JUGUETES/zibyPercheroJ.jpeg','tercero')
+  let melam16 = new Mueble('Jugu16','img/IMG_JUGUETES/zibySillaAnimalesJ.jpeg','tercero')
+  let melam17 = new Mueble('Jugu17','img/IMG_JUGUETES/zibySillaOsoJ.jpeg','tercero')
+  let melam18 = new Mueble('Jugu18','img/IMG_JUGUETES/zibySillaOvejaJ.jpeg','tercero')
+  let melam19 = new Mueble('Jugu19','img/IMG_JUGUETES/zibySillaPrincesaJ.jpeg','tercero')
+  let melam20 = new Mueble('Jugu20','img/IMG_JUGUETES/zibyStandJ.jpeg','tercero')
+  let melam21 = new Mueble('muebl1','img/IMG_MUEBLES/zibyArmario.jpeg','tercero')
+  let melam22 = new Mueble('muebl2','img/IMG_MUEBLES/zibyCocina.jpeg','tercero')
+  let melam23 = new Mueble('muebl3','img/IMG_MUEBLES/zibyFlotante.jpeg','tercero')
+  let melam24 = new Mueble('muebl4','img/IMG_MUEBLES/zibyMesaTv.jpeg','tercero')
+  let melam25 = new Mueble('muebl5','img/IMG_MUEBLES/zibyStand.jpeg','tercero')
+  /*let melam26 = new Mueble('muebl2','img/IMG_MUEBLES/zibyCocina.jpeg','tercero')
+  let melam27 = new Mueble('muebl2','img/IMG_MUEBLES/zibyCocina.jpeg','tercero')
+  let melam28 = new Mueble('muebl2','img/IMG_MUEBLES/zibyCocina.jpeg','tercero')
+  let melam29 = new Mueble('muebl2','img/IMG_MUEBLES/zibyCocina.jpeg','tercero')
+  let melam30 = new Mueble('muebl2','img/IMG_MUEBLES/zibyCocina.jpeg','tercero')*/
 
 
-  ziby.push(unoM,dosM,tresM,cuatroM,cincoM)/** ,seisM,sieteM,ochoM,nueveM,diezM,onceM,treceM,catorceM,quinceM,dieciseisM,diecisieteM,dieciochoM,diecinueveM,vienteM,vientiunoM,vientidosM)*/
+  ziby.push(melami1,melami2,melami3,melami4,melami5,melami6,melami7,melami8,melami9,melam10,melam11,melam12,melam13,melam14,melam15,melam16,melam17,melam18,melam19,melam20,melam21,melam22,melam23,melam24,melam25)/**,melam26,melam27,melam28,melam29,melam30,melam31,melam32)*/
 
 
 insertarHtml()
